@@ -1,0 +1,20 @@
+{
+  "name": "worker",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Hossein Mayboudi <smhmayboudi@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/worker.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__",
+    "publish": "wrangler publish"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/worker.test.js"
+  }
+}
